@@ -17,6 +17,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v13
 
-LOCAL_PACKAGE_NAME := PA-Updater
+LOCAL_PACKAGE_NAME := PAupdater
 
 include $(BUILD_PACKAGE)
