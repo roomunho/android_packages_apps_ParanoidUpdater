@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.matze5800.paupdater;
+package com.paranoid.updater;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -26,7 +26,8 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.Menu;
 import android.widget.Toast;
-import com.matze5800.paupdater.Shell.ShellException;
+
+import com.paranoid.updater.Shell.ShellException;
 
 import java.io.File;
 

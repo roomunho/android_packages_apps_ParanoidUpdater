@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.matze5800.paupdater;
+package com.paranoid.updater;
 
 import android.app.ActionBar;
 import android.app.ActionBar.Tab;
@@ -35,7 +35,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
-import com.matze5800.paupdater.fragments.UpdateFragment;
+
+import com.paranoid.updater.fragments.UpdateFragment;
 
 import java.io.File;
 

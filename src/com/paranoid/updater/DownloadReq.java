@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.matze5800.paupdater;
+package com.paranoid.updater;
 
 import java.util.Timer;
 import java.util.TimerTask;

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.matze5800.paupdater;
+package com.paranoid.updater;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.support.v13.app.FragmentPagerAdapter;
 
-import com.matze5800.paupdater.fragments.ChangelogFragment;
-import com.matze5800.paupdater.fragments.UpdateFragment;
+import com.paranoid.updater.fragments.ChangelogFragment;
+import com.paranoid.updater.fragments.UpdateFragment;
 
 public class AppSectionsPagerAdapter extends FragmentPagerAdapter {
 

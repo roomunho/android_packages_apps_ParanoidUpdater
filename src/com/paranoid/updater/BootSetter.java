@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.matze5800.paupdater;
+package com.paranoid.updater;
 
 import java.util.Calendar;
 
@@ -40,7 +40,7 @@ public class BootSetter extends BroadcastReceiver {
     		Log.i("boot", "Started!");
     		Log.i("boot", "UpdateCheckFreq: "+freq);
 		        Intent alarmintent = new Intent(Context, AlarmReceiver.class);
-		        alarmintent.setAction("com.matze5800.paupdater.ACTION");
+		        alarmintent.setAction("com.paranoid.updater.ACTION");
 		        PendingIntent pendingIntent = PendingIntent.getBroadcast(context,
 		                    0, alarmintent, PendingIntent.FLAG_CANCEL_CURRENT);
 		        Calendar calendar = Calendar.getInstance();

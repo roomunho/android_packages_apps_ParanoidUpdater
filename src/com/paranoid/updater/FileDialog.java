@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.matze5800.paupdater;
+package com.paranoid.updater;
 
 import java.io.File;
 import java.io.FilenameFilter;
@@ -30,7 +30,7 @@ import android.content.DialogInterface.OnClickListener;
 import android.os.Environment;
 import android.util.Log;
 
-import com.matze5800.paupdater.ListenerList.FireHandler;
+import com.paranoid.updater.ListenerList.FireHandler;
 
 public class FileDialog {
     private static final String PARENT_DIR = "..";

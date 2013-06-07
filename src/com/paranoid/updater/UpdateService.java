@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.matze5800.paupdater;
+package com.paranoid.updater;
 
 import android.app.*;
 import android.content.Context;
@@ -27,7 +27,8 @@ import android.os.PowerManager;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.widget.Toast;
-import com.matze5800.paupdater.Shell.ShellException;
+
+import com.paranoid.updater.Shell.ShellException;
 
 import java.io.*;
 

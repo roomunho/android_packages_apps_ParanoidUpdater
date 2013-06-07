@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">PA Updater</string>
+    <string name="app_name">ParanoidUpdater</string>
     <string name="action_settings">Settings</string>
     <string name="CheckGooVersion">Checking goo.im version</string>
     <string name="error">Error!</string>
@@ -70,4 +70,6 @@
     <string name="pref_debug_update_title">Ignore Update Check</string>
     <string name="pref_debug_update_summary">Enables Update functionality even if no new Version has been detected</string>
 
+    <string name="char_up">↑</string>
+    <string name="char_down">↓</string>
 </resources>

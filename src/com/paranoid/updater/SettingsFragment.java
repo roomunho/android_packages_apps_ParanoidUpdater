@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.matze5800.paupdater;
+package com.paranoid.updater;
 
 import java.util.Calendar;
 
@@ -29,8 +29,8 @@ import android.preference.PreferenceFragment;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.matze5800.paupdater.AlarmReceiver;
-import com.matze5800.paupdater.R;
+import com.paranoid.updater.AlarmReceiver;
+import com.paranoid.updater.R;
 
 public class SettingsFragment extends PreferenceFragment
 							  implements OnSharedPreferenceChangeListener{
@@ -61,7 +61,7 @@ Context Context;
 			Log.i("pref", "Update Check Freq changed!");
 			int freq = Integer.valueOf(sharedPreferences.getString("prefUpdateCheckFreq", "1"));
 	        Intent alarmintent = new Intent(Context, AlarmReceiver.class);
-	        alarmintent.setAction("com.matze5800.paupdater.ACTION");
+	        alarmintent.setAction("com.paranoid.updater.ACTION");
 	        PendingIntent pendingIntent = PendingIntent.getBroadcast(Context,
 	                    0, alarmintent, PendingIntent.FLAG_CANCEL_CURRENT);
 	        Calendar calendar = Calendar.getInstance();

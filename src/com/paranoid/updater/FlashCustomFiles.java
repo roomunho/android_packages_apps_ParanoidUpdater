@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.matze5800.paupdater;
+package com.paranoid.updater;
 
 import java.io.File;
 
@@ -37,7 +37,7 @@ import android.widget.CompoundButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.matze5800.paupdater.Shell.ShellException;
+import com.paranoid.updater.Shell.ShellException;
 
 public class FlashCustomFiles extends Activity implements OnClickListener {
 

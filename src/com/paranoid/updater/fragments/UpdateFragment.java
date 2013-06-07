@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.matze5800.paupdater.fragments;
+package com.paranoid.updater.fragments;
 
 import android.app.Fragment;
 import android.content.Context;
@@ -32,9 +32,9 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.matze5800.paupdater.Functions;
-import com.matze5800.paupdater.MainActivity;
-import com.matze5800.paupdater.R;
+import com.paranoid.updater.Functions;
+import com.paranoid.updater.MainActivity;
+import com.paranoid.updater.R;
 
 public class UpdateFragment extends Fragment {
 

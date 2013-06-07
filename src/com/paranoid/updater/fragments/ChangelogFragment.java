@@ -14,7 +14,7 @@
  * limitations under the License.
  */
  
-package com.matze5800.paupdater.fragments;
+package com.paranoid.updater.fragments;
 
 import android.app.Fragment;
 import android.content.Context;
@@ -30,8 +30,8 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.matze5800.paupdater.MainActivity;
-import com.matze5800.paupdater.R;
+import com.paranoid.updater.MainActivity;
+import com.paranoid.updater.R;
 
 public class ChangelogFragment extends Fragment {
 	
@@ -55,10 +55,8 @@ public class ChangelogFragment extends Fragment {
 		if(prefs.getString("Dev", "paranoidandroid").equals("dsmitty166")){
 			webView1.loadUrl("https://dl.dropboxusercontent.com/u/569065/changelog.html");
 		} else {
-            webView1.loadUrl(("https://plus.google.com/app/basic/107979589566958860409/posts"));}
-            //URL to old changelog:
-            //http://matze5800.de/changelog/"+device
-		
+            webView1.loadUrl(("https://plus.google.com/app/basic/107979589566958860409/posts"));
+        }		
 		return rootView;
 	}
 }
