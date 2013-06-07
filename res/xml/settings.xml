@@ -11,7 +11,7 @@
             android:title="@string/pref_updatecheck" />
 
         <CheckBoxPreference
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:key="prefCheckDev"
             android:title="@string/pref_checkDev" >
         </CheckBoxPreference>
