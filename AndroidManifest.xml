@@ -32,9 +32,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".FlashCustomFiles"
+            android:name="com.paranoid.updater.FlashCustomFiles"
             android:label="@string/flash_files"
             android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.paranoid.updater.UserSettingActivity"
+            android:label="@string/action_settings"
+            android:configChanges="orientation|screenSize" />
 
         <service android:name="com.paranoid.updater.UpdateService" >
         </service>

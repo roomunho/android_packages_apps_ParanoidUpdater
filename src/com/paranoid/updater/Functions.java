@@ -352,7 +352,7 @@ public class Functions {
         String Dev = getDevId(context);
         String device = detectDevice(context);
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
-        Boolean CheckDev = prefs.getBoolean("prefCheckDev", false);
+        Boolean CheckDev = prefs.getBoolean("prefCheckDev", true);
         String result = null;
         try{
             JSONArray files = null;

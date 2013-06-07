@@ -3,7 +3,7 @@
 
     <PreferenceCategory android:title="@string/pref_notification" >
         <ListPreference
-            android:defaultValue="1"
+            android:defaultValue="4"
             android:entries="@array/updateCheck"
             android:entryValues="@array/updateCheckValues"
             android:key="prefUpdateCheckFreq"
@@ -11,7 +11,7 @@
             android:title="@string/pref_updatecheck" />
 
         <CheckBoxPreference
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:key="prefCheckDev"
             android:title="@string/pref_checkDev" >
         </CheckBoxPreference>
@@ -43,7 +43,7 @@
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/pref_backup_setting" >
         <CheckBoxPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:key="prefBackup"
             android:title="@string/pref_backup" >
         </CheckBoxPreference>

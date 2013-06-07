@@ -52,13 +52,13 @@ public class Reboot extends Activity {
             Boolean DelBackup = prefs.getBoolean("prefBackupDel", false);
             Boolean DoBackup = prefs.getBoolean("prefBackup", true);
             Boolean WipeCache_DalvikCache = prefs.getBoolean("prefWipeCache_DalvikCache", true);
-            Boolean Boot = prefs.getBoolean("prefBackupBoot", true);
+            Boolean Boot = prefs.getBoolean("prefBackupBoot", false);
             Boolean System = prefs.getBoolean("prefBackupSystem", true);
             Boolean Data = prefs.getBoolean("prefBackupData", true);
             Boolean Compress = prefs.getBoolean("prefBackupCompress", true);
             Boolean md5 = prefs.getBoolean("prefBackupMd5", true);
             Boolean Gapps = prefs.getBoolean("prefFlashGapps", true);
-            Boolean Kernel = prefs.getBoolean("prefKernelRestore", true);
+            Boolean Kernel = prefs.getBoolean("prefKernelRestore", false);
             Boolean Prefs = prefs.getBoolean("prefPrefsRestore", true);
             Boolean CustomZip = prefs.getBoolean("customZip", false);
 

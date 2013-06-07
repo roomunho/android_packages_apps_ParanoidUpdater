@@ -217,24 +217,16 @@ public class FlashCustomFiles extends Activity implements OnClickListener {
 							backup = "echo backup BSDOM";
 					}
 				});
-		wipeCache = (CheckBox) findViewById(R.id.wipe_cache);
+		wipeCache = (CheckBox) findViewById(R.id.wipe_caches);
 		wipeCache
 				.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 					@Override
 					public void onCheckedChanged(CompoundButton buttonView,
 							boolean isChecked) {
-						if (isChecked)
+						if (isChecked) {
 							wipe_cache = "echo wipe cache";
-					}
-				});
-		wipeDalvikCache = (CheckBox) findViewById(R.id.wipe_dalvik_cache);
-		wipeDalvikCache
-				.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-					@Override
-					public void onCheckedChanged(CompoundButton buttonView,
-							boolean isChecked) {
-						if (isChecked)
-							wipe_dalvikCache = "echo wipe dalvik";
+                            wipe_dalvikCache = "echo wipe dalvik";
+                        }
 					}
 				});
 	}

@@ -317,16 +317,10 @@
     </ScrollView>
 
     <CheckBox
-        android:id="@+id/wipe_cache"
+        android:id="@+id/wipe_caches"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/pref_WipeCache" />
-
-    <CheckBox
-        android:id="@+id/wipe_dalvik_cache"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/pref_WipeDalvik" />
+        android:text="@string/pref_WipeCache_DalvikCache" />
 
     <CheckBox
         android:id="@+id/create_backup"
