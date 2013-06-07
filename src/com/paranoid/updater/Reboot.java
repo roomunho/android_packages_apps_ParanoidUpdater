@@ -32,8 +32,9 @@ import com.paranoid.updater.Shell.ShellException;
 import java.io.File;
 
 public class Reboot extends Activity {
-    SharedPreferences prefs;
-    Context context;
+
+    private SharedPreferences prefs;
+    private Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

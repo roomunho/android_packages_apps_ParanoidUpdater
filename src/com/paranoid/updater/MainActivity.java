@@ -35,18 +35,17 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
-
 import com.paranoid.updater.fragments.UpdateFragment;
 
 import java.io.File;
 
 public class MainActivity extends Activity implements ActionBar.TabListener {
 
-    AppSectionsPagerAdapter mAppSectionsPagerAdapter;
-    static Context context;
-    ViewPager mViewPager;
-    SharedPreferences prefs;
-    String device;
+    private AppSectionsPagerAdapter mAppSectionsPagerAdapter;
+    private static Context context;
+    private ViewPager mViewPager;
+    private SharedPreferences prefs;
+    private String device;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
