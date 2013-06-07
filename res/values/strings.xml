@@ -11,7 +11,6 @@
     <string name="check">Checking for updates</string>
     <string name="update">Start update</string>
     <string name="select_rom_zip">Select ROM zip</string>
-    <string name="changelog">View changelog</string>
     <string name="flash_files">Flash custom files</string>
     <string name="clear_list">Clear list</string>
     <string name="no_files_to_flash">No files to install!</string>
@@ -29,7 +28,6 @@
     <string name="update_dialog_yes">Yes</string>
     <string name="update_dialog_no">No</string>
     <string name="credits">Developed by Simon Matzeder and Parthipan Ramesh.</string>
-    <string name="title_activity_changelog">View Changelog</string>
     <string name="title_activity_download_req">Download Request</string>
     <string name="title_activity_cancel">Cancel</string>
     <string name="cancel">Do you want to cancel the update?</string>
@@ -47,7 +45,7 @@
     <string name="pref_notification">Notification Settings</string>
     <string name="pref_updatecheck">Update check frequency</string>
     <string name="pref_updatecheck_summary">Set the update check frequency</string>
-    <string name="pref_checkDev">Check dev folder</string>
+    <string name="pref_checkDev">Check alpha/dev folder</string>
     <string name="pref_update_setting">Update Settings</string>
     <string name="pref_gapps_title">Flash Google apps</string>
     <string name="pref_gapps_summary">Enable automatic Google apps flashing</string>

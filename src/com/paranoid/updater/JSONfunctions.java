@@ -31,6 +31,7 @@ import android.util.Log;
 public class JSONfunctions {
 
 	public static JSONObject getJSONfromURL(String url){
+
 		InputStream is = null;
 		String result = "";
 		JSONObject jArray = null;
