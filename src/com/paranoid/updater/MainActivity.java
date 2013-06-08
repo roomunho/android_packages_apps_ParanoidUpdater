@@ -137,7 +137,6 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
             if (!result.equals("err")) {
                 int gooVer = UpdateFragment.getGooVer();
                 int localVer = UpdateFragment.getLocalVer();
-                boolean secondupdate = UpdateFragment.getSecondupdate();
 
                 gooVer = Integer.valueOf(result);
                 Log.i("gooVer", "goo Version: " + gooVer);
@@ -149,14 +148,12 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
                 if (gooVer > localVer) {
                     UpdateFragment.getUpdateStatus().setText(
                             R.string.update_available);
-                    if (!secondupdate) {
-                        float newY = UpdateFragment.getImageStatus().getY() + 32;
-                        float newX = UpdateFragment.getImageStatus().getX() + 10;
-                        UpdateFragment.getImageStatus().setY(newY);
-                        UpdateFragment.getImageStatus().setX(newX);
-                    }
                     UpdateFragment.getImageStatus().setImageResource(
                             R.drawable.update);
+                    float updateY = UpdateFragment.getUpdate_y();
+                    float updateX = UpdateFragment.getUpdate_x();
+                    UpdateFragment.getImageStatus().setY(updateY);
+                    UpdateFragment.getImageStatus().setX(updateX);
                     UpdateFragment.getUpdateButton().setEnabled(true);
                 } else {
                     UpdateFragment.getUpdateStatus().setText(R.string.uptodate);
@@ -224,24 +221,6 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
         myAlertDialog.show();
     }
 
-    // UpdateButton
-    public void selectROMZip(View view) {
-        File mPath = new File(Environment.getExternalStorageDirectory()
-                + "//DIR//");
-        FileDialog fileDialog = new FileDialog(this, mPath);
-        fileDialog.setFileEndsWith(".zip");
-        fileDialog.addFileListener(new FileDialog.FileSelectedListener() {
-            public void fileSelected(File file) {
-                String path = file.toString();
-                Log.i("CustomZip", "Selected file " + path);
-                prefs.edit().putBoolean("customZip", true).commit();
-                prefs.edit().putString("customZipPath", path).commit();
-                UpdateFragment.getUpdateButton().setEnabled(true);
-            }
-        });
-        fileDialog.showDialog();
-    }
-
     // StartUpdateService
     private void processStartService() {
         Intent intent = new Intent(context.getApplicationContext(),
@@ -254,10 +233,6 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
 
     // Refresh Button from ActionBar
     public void refresh() {
-        @SuppressWarnings("unused")
-        boolean secondupdate = UpdateFragment.getSecondupdate();
-
-        secondupdate = true;
         UpdateFragment.getUpdateStatus().setText(R.string.check);
         UpdateFragment.getProgressStatus().setVisibility(0);
         UpdateFragment.getImageStatus().setVisibility(8);

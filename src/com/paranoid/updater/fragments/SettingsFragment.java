@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.paranoid.updater;
+package com.paranoid.updater.fragments;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -26,6 +26,8 @@ import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.util.Log;
 import android.widget.Toast;
+import com.paranoid.updater.AlarmReceiver;
+import com.paranoid.updater.R;
 
 import java.util.Calendar;
 

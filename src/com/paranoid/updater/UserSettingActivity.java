@@ -18,6 +18,7 @@ package com.paranoid.updater;
 
 import android.app.Activity;
 import android.os.Bundle;
+import com.paranoid.updater.fragments.SettingsFragment;
 
 public class UserSettingActivity extends Activity {
     @Override
