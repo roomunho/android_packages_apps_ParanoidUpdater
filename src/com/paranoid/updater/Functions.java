@@ -239,6 +239,20 @@ public class Functions {
                 result = "toroplus";
             } else if (device.equalsIgnoreCase("find5")) {
                 result = "find5";
+            } else if (device.equalsIgnoreCase("crespo")) {
+                result = "crespo";
+            } else if (device.equalsIgnoreCase("d2tmo")) {
+                result = "d2tmo";
+            } else if (device.equalsIgnoreCase("i9100")) {
+                result = "i9100";
+            } else if (device.equalsIgnoreCase("i9100g")) {
+                result = "i9100g";
+            } else if (device.equalsIgnoreCase("n7000")) {
+                result = "n7000";
+            } else if (device.equalsIgnoreCase("smba1002")) {
+                result = "smba1002";
+            } else if (device.equalsIgnoreCase("tf700t")) {
+                result = "tf700t";
             } else {
                 Toast.makeText(context, "Sorry, your device is not supported yet!", Toast.LENGTH_LONG).show();
                 result = "unsupported";
@@ -266,8 +280,22 @@ public class Functions {
             result = "/dev/block/mmcblk0p8";
         } else if (device.equals("manta")) {
             result = "/dev/block/platform/dw_mmc.0/by-name/boot";
-        }else if (device.equals("find5")) {
+        } else if (device.equals("find5")) {
             result = "/dev/block/mmcblk0p18";
+        } else if (device.equals("crespo")) {
+            result = "/dev/block/mtdblock2";
+        } else if (device.equals("d2tmo")) {
+            result = "/dev/block/mmcblk0p7";
+        } else if (device.equals("i9100")) {
+            result = "/dev/block/mmcblk0p5";
+        } else if (device.equals("i9100g")) {
+            result = "/dev/block/mmcblk0p5";
+        } else if (device.equals("n7000")) {
+            result = "/dev/block/mmcblk0p5";
+        } else if (device.equals("smba1002")) {
+            result = "/dev/block/mmcblk0p8";
+        } else if (device.equals("tf700t")) {
+            result = "/dev/block/mmcblk0p4";
         }
         Log.i("getBootPartition", "Boot partition for " + device + ": " + result);
         return result;
