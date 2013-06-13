@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Paranoid Güncelleyici</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="CheckGooVersion">goo.im versiyonu kontrol ediliyor</string>
+    <string name="error">Hata!</string>
+    <string name="img_descr_status">Durum</string>
+    <string name="uptodate">Güncelsiniz.</string>
+    <string name="update_available">Güncelleme mevcut!</string>
+    <string name="check">Güncelleme aranıyor.</string>
+    <string name="update">Güncellemeyi başlat</string>
+    <string name="select_rom_zip">ROM zip dosyasını seçin</string>
+    <string name="flash_files">Dosya yükle</string>
+    <string name="clear_list">Listeyi temizle</string>
+    <string name="no_files_to_flash">Yüklenecek dosya yok!</string>
+    <string name="confirm_flash">Lütfen onaylayın!</string>
+    <string name="damage_hint">Yanlış dosyaları yüklemek cihazınızda hasar oluşmasına neden olabilir, devam etmek istediğinizden emin misiniz?</string>
+    <string name="error_setting_up_openrecovery_script">OpenRecoveryScripti kurarken hata oluştu! Gerekli işlemleri lütfen el ile yapın!</string>
+    <string name="error_goo_down">"Üzgünüz, goo.im sunucularina bağlanırken sorun yaşandı"</string>
+    <string name="error_md5_rom">"ROM MD5i uyumsuz!!! Çıkılıyor!"</string>
+    <string name="error_md5_gapps">"GAPPS MD5i uyumsuz!!! Çıkılıyor!"</string>    <string name="update_dialog_title">İndirme işlemi başlasın mı?</string>
+    <string name="update_dialog_use_rom">Bu ROMu kullanacağım:\n</string>
+    <string name="update_dialog_download_rom">En yeni ROM:\n</string>
+    <string name="update_dialog_gapps">En yeni Google Uygulamaları paketi:\n</string>
+    <string name="update_dialog_do_it">Tamam</string>
+    <string name="update_dialog_cancel">İptal</string>
+    <string name="update_dialog_no_wifi">WiFi üzerinde değilsiniz!</string>
+    <string name="update_dialog_lot_traffic">Güncelleme yapmak kota kullanımına sebep olacaktır!\n\nBaşlatmak istediğinize emin misiniz?</string>
+    <string name="update_dialog_yes">Evet</string>
+    <string name="update_dialog_no">Hayır</string>
+    <string name="credits">Simon Matzeder ve Parthipan Ramesh tarafından geliştirilmiştir.</string>
+    <string name="title_activity_download_req">İndirme talebi</string>
+    <string name="title_activity_cancel">İptal</string>
+    <string name="cancel">Güncellemeyi iptal etmek istediğinizden emin misiniz?</string>
+    <string name="cancel_yes">Evet, İptal et</string>
+    <string name="cancel_no">Hayır, lütfen devam et</string>
+    <string name="title_activity_reboot">Yeniden başlat</string>
+    <string name="wait">Lütfen bekleyin</string>
+    <string name="action_refresh">Yenile</string>
+    <string name="action_open">ROM zip dosyası seçin</string>
+    <string name="action_add">Dosya ekle</string>
+    <string name="action_flash">Yükleme işlemini başlat</string>
+    <string name="content_edit">Düzenle</string>
+    <string name="menu_settings">Ayarlar</string>
+    <string name="title_activity_settings">Ayarlar</string>
+    <string name="pref_notification">Bildirim ayarları</string>
+    <string name="pref_updatecheck">Güncelleme kontrol etme sıklığı</string>
+    <string name="pref_updatecheck_summary">Güncelleme kontrol etme sıklığını ayarla</string>
+    <string name="pref_checkDev">Alpha/dev dosyasını kontrol et</string>
+    <string name="pref_update_setting">Güncelleme ayarları</string>
+    <string name="pref_gapps_title">Google Uygulamalarını yükle</string>
+    <string name="pref_gapps_summary">Google Uygulamaları otomatik olarak yüklenecektir</string>
+    <string name="pref_kernel_restore">Kerneli geri yükle</string>
+    <string name="pref_kernel_restore_summary">Mevcut kernel yükleme işleminden sonra geri yüklenecektir</string>
+    <string name="pref_prefs_title">PA tercihlerini geri yükle</string>
+    <string name="pref_prefs_summary">Mevcut PA tercşhlerini yükleme işleminde sonra otomatik olarak geri yüklenecektir</string>
+    <string name="pref_WipeCache_DalvikCache">Cache/Dalvik Cachei temizle</string>
+    <string name="pref_backup_setting">Ayarları yedekle</string>
+    <string name="pref_backup">Yedek oluştur</string>
+    <string name="pref_backup_boot">Bootu yedekle</string>
+    <string name="pref_backup_system">Sistemi yedekle</string>
+    <string name="pref_backup_data">Datayı yedekle</string>
+    <string name="pref_backup_compress_title">Sıkıştırmayı etkinleştir</string>
+    <string name="pref_backup_compress_summary">Yedekleme işleminin uzun sürmesi karşılında yedek dosyalarının boyutunu küçültür</string>
+    <string name="pref_backup_md5">MD5sumları oluştur</string>
+    <string name="pref_BackupDel_title">Eski yedekleri sil</string>
+    <string name="pref_BackupDel_summary">SD Kartınızdaki /TWRP/BACKUPS dosyasını temizler</string>
+    <string name="pref_debug">hata ayıklama</string>
+    <string name="pref_debug_update_title">Güncelleme kontrolüne aldırma</string>
+    <string name="pref_debug_update_summary">Güncelleme işlevselliğini hiçbir yeni versiyon bulunmuş olmasa bile etkinleştirir</string>
+
+    <string name="char_up">↑</string>
+    <string name="char_down">↓</string>
+</resources>
