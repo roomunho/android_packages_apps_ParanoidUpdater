@@ -17,6 +17,9 @@
     <string name="confirm_flash">Please confirm!</string>
     <string name="damage_hint">Installing the wrong files could impact your device badly, do you want to go on?</string>
     <string name="error_setting_up_openrecovery_script">Error while setting up OpenRecoveryScript! Please perform the actions manually!</string>
+    <string name="error_goo_down">"Sorry, goo.im seems to be down"</string>
+    <string name="error_md5_rom">"ROM MD5 Mismatch!!! Aborting!"</string>
+    <string name="error_md5_gapps">"GAPPS MD5 Mismatch!!! Aborting!"</string>
     <string name="update_dialog_title">Start Download?</string>
     <string name="update_dialog_use_rom">I am going to use this ROM:\n</string>
     <string name="update_dialog_download_rom">Latest ROM:\n</string>
@@ -67,7 +70,7 @@
     <string name="pref_debug">debug</string>
     <string name="pref_debug_update_title">Ignore Update Check</string>
     <string name="pref_debug_update_summary">Enables update functionality even if no new Version has been detected</string>
-
+    
     <string name="char_up">↑</string>
     <string name="char_down">↓</string>
 </resources>
