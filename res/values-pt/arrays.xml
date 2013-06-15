@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="updateCheck">
+        <item name="48">A cada 48 hrs + ao iniciar</item>
+        <item name="24">A cada 24 hrs + ao iniciar</item>
+        <item name="12">A cada 12 hrs + ao iniciar</item>
+        <item name="4">A cada 4 hrs + ao iniciar</item>
+        <item name="2">A cada 2 hrs + ao iniciar</item>
+        <item name="1">Ao iniciar</item>
+        <item name="0">Nunca (atualizar manualmente)</item>
+    </string-array>
+    <string-array name="updateCheckValues">
+        <item name="48">48</item>
+        <item name="24">24</item>
+        <item name="12">12</item>
+        <item name="4">4</item>
+        <item name="2">2</item>
+        <item name="1">1</item>
+        <item name="0">0</item>
+    </string-array>
+     
+</resources>  
